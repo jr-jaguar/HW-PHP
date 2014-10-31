@@ -8,8 +8,4 @@ $user1->showInfo();
 $admin = new SuperUser('admin','root','root','admin');
 $admin->showInfo();
 print_r($admin->getInfo());
-
-
-
-
 ?>
