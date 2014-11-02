@@ -1,5 +1,6 @@
 <?php
-require_once __DIR__.'/aclass.AUser.php';
+namespace Core;
+require_once __DIR__ . '/AUser.php';
 
 class User{
     public $name;

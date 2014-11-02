@@ -1,6 +1,7 @@
 <?php
-require_once __DIR__.'/class.User.php';
-require_once __DIR__.'/interface.ISuperUser.php';
+namespace Core;
+require_once __DIR__ . '/User.php';
+require_once __DIR__ . '/ISuperUser.php';
 class SuperUser extends User implements ISuperUser{
     public $role;
 
